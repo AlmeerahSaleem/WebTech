@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+  </head>
+  <body>
+    <h1>@model.title Universe</h1>
+    <!-- <p>@model.name, gege hates ur fav</p> -->
+    <br />
+    <div>
+      @model.users.forEach(function(user){
+      <div>@user.firstName, gege hates u</div>
+      });
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>LMAO LOSERS</h1>
+    bow down to ur queen @model.queen <br />
+    @model.users.forEach(function(user){
+    <div>@user.firstName , shut up</div>
+    });
+  </body>
+</html>

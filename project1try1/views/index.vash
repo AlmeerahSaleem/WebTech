@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JJK</title>
+  </head>
+  <body>
+    <h1>Welcome to JJK! @model.title</h1>
+    <br />
+    <div>
+      @model.users.forEach(function(user){
+      <div>mar jao @user.firstName!</div>
+      });
+    </div>
+  </body>
+</html>
