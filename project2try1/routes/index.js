@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 router.get("/", (req, res) => {
   fetch("https://dummyjson.com/users")
-    .then((res) => res.json)
+    .then((res) => res.json())
     .then((data) => res.render("index", { users: data.users }));
 });
 
@@ -21,4 +21,4 @@ router.get("/form", (req, res) => {
     });
 });
 
-module.export = router;
+module.exports = router;

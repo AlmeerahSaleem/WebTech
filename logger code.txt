@@ -1,0 +1,18 @@
+const express = require("express");
+const app = express();
+const PORT = process.env.PORT || 4000;
+
+const logger = (req, res, next) => {
+  req.msg = `<br> this msg is from logger`;
+  next();
+};
+
+app.use(logger);
+
+app.get("/", (req, res) => {
+  res.send(`home page ${req.msg}`);
+});
+
+app.listen(PORT, () =>
+  console.log(`sever is listening on http://localhost:${PORT}`)
+);
