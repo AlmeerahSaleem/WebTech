@@ -5,8 +5,8 @@ npm install yarn <br>
 yarn add express <br>
 yarn add nodemon <br>
 yarn add vash <br> 
-npx nodemon index.js <br>
-node index.js <br>
+npx nodemon index.js (to activate nodemon) <br>
+node index.js (to run a file in terminal) <br>
 
 * to activate vash
 
