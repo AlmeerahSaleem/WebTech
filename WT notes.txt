@@ -1,0 +1,58 @@
+npm init -y
+npm install yarn
+yarn add express
+yarn add nodemon
+yarn add vash
+
+npx nodemon index.js
+
+// to activate vash
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'vash');
+
+//to run json
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+_________________________________
+
+
+yarn add mongoose
+
+//ups mongodb
+start.cmd 
+
+connect via extension
+
+db download
+course.js
+schema.js
+
+//imported db and collection
+mongoimport --jsonArray JSON\courses.json -d academic -c courses
+
+//makes a directory (academic) with a collection (courses) and imports json in that
+
+mongosh
+show dbs
+use academic
+show collections
+db.students.findOne()
+db.courses.findOne()
+
+//exit mongoshell 
+
+//make sure to be standing in JSON directory else model JSON say bahar banay ga  
+cd JSON
+
+//make model
+node schema.js courses.json > Course.js
+// Course.js added to models
+index.js file bani
+tha vs code main kaam
+
+> insert
+>> append
+
+db kay sath hi schema hona chahiya
+
+
