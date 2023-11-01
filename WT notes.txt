@@ -55,4 +55,16 @@ tha vs code main kaam
 
 db kay sath hi schema hona chahiya
 
+---revieww--
 
+//pretty sell explainitory
+**db.courses.find({semester: 1}, {_id: 0, code: 1, title: 1}).sort('courseid: 1').forEach(d => print(JSON.stringify(d)))**
+
+academic> for(let col in db.courses.findOne()){ 
+print(col)}
+_id
+courseid
+code
+title
+crhr
+semester
